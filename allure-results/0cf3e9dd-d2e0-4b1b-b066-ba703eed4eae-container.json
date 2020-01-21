@@ -1,0 +1,1 @@
+{"uuid":"0cf3e9dd-d2e0-4b1b-b066-ba703eed4eae","name":"by.stormnet.web.OnlinerWeatherTest","start":1579608462369,"stop":1579608958757,"children":["df1b8c26-938d-4c42-a88b-d0954c67795a"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1579608578371,"stop":1579608585096}]}

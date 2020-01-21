@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Acceptance suite]" verbose="0">
+  <test thread-count="5" name="login test(failed)" verbose="0">
+    <classes>
+      <class name="by.stormnet.web.OnlinerBarMobileAccTest">
+        <methods>
+          <include name="checkBarMobileAccTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarMobileAccTest -->
+      <class name="by.stormnet.web.OnlinerBarRadioTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarRadioTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarRadioTest -->
+      <class name="by.stormnet.web.OnlinerBarNewYearTest">
+        <methods>
+          <include name="checkBarNewYearTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarNewYearTest -->
+      <class name="by.stormnet.web.OnlinerBarClothesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarClothesTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarClothesTest -->
+      <class name="by.stormnet.web.OnlinerBarUsbTest">
+        <methods>
+          <include name="checkDarUsbTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarUsbTest -->
+      <class name="by.stormnet.web.OnlinerBarVideoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarVideoTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarVideoTest -->
+      <class name="by.stormnet.web.OnlinerBarDdrTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarDdrTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarDdrTest -->
+      <class name="by.stormnet.web.OnlinerBarAppleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarAppleTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarAppleTest -->
+      <class name="by.stormnet.web.OnlinerBarRentRoomTest">
+        <methods>
+          <include name="checkBarRentRoomTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarRentRoomTest -->
+      <class name="by.stormnet.web.OnlinerBarTreesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarTreesTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarTreesTest -->
+      <class name="by.stormnet.web.OnlinerBarMobileServicesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarMobileServicesTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarMobileServicesTest -->
+    </classes>
+  </test> <!-- login test(failed) -->
+</suite> <!-- Failed suite [Acceptance suite] -->
